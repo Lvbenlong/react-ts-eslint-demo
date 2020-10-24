@@ -64,23 +64,17 @@ PS:
 
 运行项目,浏览器端访问[http://localhost:3000](http://localhost:3000)查看
 
-### `yarn test` or `npm test`
-
-这个命令还没有研究过 放上原英文吧 哈哈哈~
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `yarn build` or `npm build`
 
 打包命令
 
 ### `yarn eject` or `npm eject`
+
+通过 npx create-react-app 安装以后，发现没有 webpack 相关的配置的目录，在读了 react 官方文档后，发现通过 yarn eject 可以弹出相关的配置，进行自定义配置。
+默认下是不展示相关配置,需要我们执行这个命令将其暴露出来
+
+### `yarn test` or `npm test`
+
 这个命令还没有研究过 放上原英文吧 哈哈哈~
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
